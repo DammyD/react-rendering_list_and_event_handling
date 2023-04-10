@@ -15,7 +15,8 @@ Implement this application using React and host it on Netlify/Github pages
 - A link to the repository on GitHub
 - A hosted link to your project
 
-![Design comp](/React_practice/assignment/react-rendering_list_and_event_handling/search-app/src/assets/profiledata.png)
+![Design comp](/React_practice/assignment/react-rendering_list_and_event_handling/search-app/src/assets/profiledata.png "Design")
+
 Below is data for the user profiles:
 
    [
