@@ -16,9 +16,10 @@ Implement this application using React and host it on Netlify/Github pages
 - A hosted link to your project
 
 ![Design comp](/React_practice/assignment/react-rendering_list_and_event_handling/search-app/src/assets/profiledata.png)
-Below is data for the user profiles
+Below is data for the user profiles:
 
-[
+   [
+
     {
         "id": "60d0fe4f5311236168a109f5",
         "title": "ms",
@@ -88,14 +89,13 @@ Below is data for the user profiles
         "lastName": "Leclerc",
         "picture": "https://randomuser.me/api/portraits/med/men/57.jpg"
     },
-    
+
     {
         "id": "60d0fe4f5311236168a10a04",
         "title": "mr",
         "firstName": "Konsta",
         "lastName": "Manninen",
         "picture": "https://randomuser.me/api/portraits/med/men/24.jpg"
-    }
-]
+    }]
 
 
