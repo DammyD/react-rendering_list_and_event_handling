@@ -1,25 +1,23 @@
 import React from 'react'
-import { profiles } from '../data/users-profile';
 import '../styles/profile-list.css';
 
-const ProfileLists = () => {
+const ProfileLists = ({ searchQuery }) => {
 
-    const usersProfile = profiles.map((profile) => {
+    const usersProfile = searchQuery.map((profile) => {
      
-            return <li>
+            return <li key={profile.id}>
             <img src={profile.picture} alt="profile" />
-            <div>
+            <div className="profile-details">
             <p>{profile.id}</p>
-            <span>{profile.title}</span>
-            <span>{profile.firstName}</span>
-            <span>{profile.lastName}</span>
+            <span>{`${profile.title} ${profile.firstName} ${profile.lastName}`}</span>
             </div>
         </li>
     })
+    const content = usersProfile?.length ? usersProfile : "";
     return (
         <div>
             <ul className="profile-card">
-                {usersProfile}
+                {content}
             </ul>
         </div>
     )

@@ -1,7 +1,6 @@
 .profile-card {
     display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
     list-style: none;
     
 }
