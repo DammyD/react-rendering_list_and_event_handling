@@ -17,6 +17,7 @@ Implement this application using React and host it on Netlify/Github pages
 
 ![Design comp](/React_practice/assignment/react-rendering_list_and_event_handling/search-app/src/assets/profiledata.png)
 Below is data for the user profiles
+
 [
     {
         "id": "60d0fe4f5311236168a109f5",
@@ -25,6 +26,7 @@ Below is data for the user profiles
         "lastName": "Legrand",
         "picture": "https://randomuser.me/api/portraits/med/women/77.jpg"
     },
+
     {
         "id": "60d0fe4f5311236168a109f6",
         "title": "miss",
@@ -32,6 +34,7 @@ Below is data for the user profiles
         "lastName": "Ambrose",
         "picture": "https://randomuser.me/api/portraits/med/women/15.jpg"
     },
+
     {
         "id": "60d0fe4f5311236168a109fa",
         "title": "ms",
@@ -46,6 +49,7 @@ Below is data for the user profiles
         "lastName": "Pierre",
         "picture": "https://randomuser.me/api/portraits/med/men/77.jpg"
     },
+
     {
         "id": "60d0fe4f5311236168a109fc",
         "title": "mr",
@@ -53,6 +57,7 @@ Below is data for the user profiles
         "lastName": "Ribeiro",
         "picture": "https://randomuser.me/api/portraits/med/men/10.jpg"
     },
+
     {
         "id": "60d0fe4f5311236168a109ff",
         "title": "mrs",
@@ -60,6 +65,7 @@ Below is data for the user profiles
         "lastName": "Calvo",
         "picture": "https://randomuser.me/api/portraits/med/women/3.jpg"
     },
+
     {
         "id": "60d0fe4f5311236168a10a00",
         "title": "mrs",
@@ -74,6 +80,7 @@ Below is data for the user profiles
         "lastName": "Riley",
         "picture": "https://randomuser.me/api/portraits/med/men/45.jpg"
     },
+
     {
         "id": "60d0fe4f5311236168a10a03",
         "title": "mr",
@@ -81,6 +88,7 @@ Below is data for the user profiles
         "lastName": "Leclerc",
         "picture": "https://randomuser.me/api/portraits/med/men/57.jpg"
     },
+    
     {
         "id": "60d0fe4f5311236168a10a04",
         "title": "mr",
