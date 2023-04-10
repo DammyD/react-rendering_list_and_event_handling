@@ -5,7 +5,7 @@ import { profiles } from '../data/users-profile';
 import '../styles/app.css';
 
 const App = () => {
-    const [userDetails, setUserDetails] = useState(profiles);
+    const [userDetails] = useState(profiles);
     const [searchQuery, setSearchQuery] = useState(profiles);
     console.log(profiles);
 
